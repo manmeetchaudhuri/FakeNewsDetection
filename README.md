@@ -42,7 +42,6 @@ Note that each of the data files have the Domain, URL and UrlType at the beginni
 6) Total          --   183
 
 ###########################################################################################
-
 CODE files are uploaded:
 
 1) scriptExtractTweets1.py
