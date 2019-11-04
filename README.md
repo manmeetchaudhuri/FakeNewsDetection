@@ -12,7 +12,7 @@ Morphological, Psychological, Twitter and Readability.
 
 The accuracy values for all models in the report are only for the non-normalized features values being used for model training and then the 20% test data being applied.
 
-################################################################################################
+###########################################################################################
 DATA files uploaded in the data folder:
 
 1) Files with only regular features and NO normalized values.
@@ -41,7 +41,7 @@ Note that each of the data files have the Domain, URL and UrlType at the beginni
 5) Readability    --   18
 6) Total          --   183
 
-################################################################################################
+###########################################################################################
 
 CODE files are uploaded:
 
