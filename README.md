@@ -8,6 +8,8 @@ We did not crawl websites to extract HTML. Instead we used this Github repo (git
 Features belong to 4 main groups:
 Morphological, Psychological, Twitter and Readability.
 
+The accuracy values for all models in the report are only for the non-normalized features values being used for model training and then the 20% test data being applied.
+
 ################################################################################################
 DATA files uploaded in the data folder:
 
@@ -26,6 +28,8 @@ DATA files uploaded in the data folder:
 1d) T_Features_Norm.csv      -- contains only the Twitter features
 1e) R_Features_Norm.csv      -- contains only the Readability features
 1f) MLR_Features_Norm.csv    -- contains all features EXCEPT Twitter features
+
+3) Note on the normalized values: Used MinMax scalar. For Pyschological, Morpohological and Readability: all feature values were set to -1 before the computed values were inserted. If the value was not computed then -1 is reatained. Similarly, for Twitter: some features values (e.g. span, average time between tweets, etc.) are only meaningful if there is more than one tweet. So these values are set as -1 when that particular URL had only one tweet.
 
 Note that each of the data files have the Domain, URL and UrlType at the beginning followed by the actual feature data. The number of features for each group are:
 1) Feature Group  --   Number of Features (non-Normalised)
